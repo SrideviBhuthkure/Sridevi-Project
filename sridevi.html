@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <title>Project</title>
+        <style>
+            .dropdown-menu{
+                background-color: rgb(206, 138, 138);
+            }
+            .centered{
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .wrapper{
+    
+                text-align: center;
+                
+            }
+            .p1{
+                 font-family: italic;
+            }
+            .hi div{
+                height: 4px;
+                background-color: white;
+                margin: 5px 0;
+                border-radius: 25px;
+            }
+            .hi{
+                width: 30px;
+                display: block;
+                margin: 0 0 ;
+
+            }
+            a:hover{
+                color:rgb(195, 232, 44);
+            }
+    
+        </style>
+      </head>
+      <body>
+
+        <nav class="navbar navbar-expand-sm navbar bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="event.jpg" width="70px" height="30px">
+                </a>
+                <ul class="navbar-nav" >
+                    <li class="nav-item"><a class="btn btn-danger" href="">HOME</a></li>
+                    <li class="nav-item"><a class="btn btn-danger" href="https://en.wikipedia.org/wiki/Event_management">ABOUT</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-danger dropdown-toggle" data-bs-target="#ddd" data-bs-toggle="dropdown">EVENTS</button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="https://www.bing.com/images/search?q=corporate+events&form=HDRSC2&first=1" class="btn ">Corporate Events</a></li>
+                            <li class="dropdown-item"><a href="https://www.bing.com/images/search?q=personal%20Party%20Venues&qs=n&form=QBIR&sp=-1&pq=personal%20party%20venues&sc=0-21&cvid=9E4B6686D9364FD6A3E1D99EC6C96FA6&ghsh=0&ghacc=0&first=1" class="btn ">Personal Events</a></li>
+                            <li class="dropdown-item"><a href="https://www.bing.com/images/search?q=festivals%20&qs=n&form=QBIR&sp=-1&pq=festivals%20&sc=10-10&cvid=915DFCA60E1D429EAB1B706419ABF6B1&ghsh=0&ghacc=0&first=1" class="btn ">Festival Events</a></li>
+                            <li class="dropdown-item"><a href="https://www.bing.com/images/search?q=wedding&cbn=KnowledgeCard&stid=b3f5f70d-05cb-2db8-a45f-c77dbbf9ff74&thid=OSK.HEROGFGO6qQyVwSKXJOm1zNLO1spYAimA8bNGNsdqtsviq0&form=KCHIMM&first=1&disoverlay=1" class="btn ">Wedding</a></li>
+                            <li class="dropdown-item"><a href="https://www.bing.com/images/search?q=Award%20Ceremonies&qs=n&form=QBIRMH&sp=-1&ghc=1&pq=award%20ceremonies&sc=10-16&cvid=98BBEF7E4B2342A68D84F7B755783C79&ghsh=0&ghacc=0&first=1" class="btn ">Award Ceremonies</a></li>
+                        
+                        </ul>
+                    </li>
+                
+                    <li class="nav-item"><a class="btn btn-danger" href="https://cornerstone.in/contact-us/">CONTACT US</a></li>
+                    
+
+                   
+                
+              </ul>
+            </div>
+        </nav>
+        <div class="carousel slide"data-bs-ride="carousel"id="abc">
+            <!-- ------carousel indicators----- -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#abc"data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#abc"data-bs-slide-to="1" ></li>
+                <li data-bs-target="#abc"data-bs-slide-to="2" ></li>
+                <li data-bs-target="#abc"data-bs-slide-to="3" ></li>
+                <li data-bs-target="#abc"data-bs-slide-to="4" ></li>
+                <li data-bs-target="#abc"data-bs-slide-to="5" ></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                   <img src="e6.jpg" class="d-block w-100">
+                   <div class="centered">
+            
+                    <h1 class="p1 text-white text-center ">We Do Not Remember The Days, But Rather The Moments</h1>
+                
+                   </div>
+                    
+                </div>
+                <div class="carousel-item">
+                   <img src="e9.jpg"class="d-block w-100">
+                </div>
+            
+                <div class="carousel-item">
+                  <img src="e8.jpg"class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="e1.jpg"class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="e10.jpg"class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="e7.jpg"class="d-block w-100">
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- -------carousel control----- -->
+        <a href="#abc" class="carousel-control-prev"><span class="carousel-control-prev-icon" data-bs-target="#abc" data-bs-slide="prev"></span></a>
+        <a href="#abc" class="carousel-control-next"><span class="carousel-control-next-icon" data-bs-target="#abc" data-bs-slide="next"></span></a>
+    
+             
+        
+    
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+      </body>
+    </html>
+</html>
